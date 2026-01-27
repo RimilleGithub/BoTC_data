@@ -1,0 +1,515 @@
+[
+  {
+    "ability": "在你的第一晚，你得到一個鎮民的能力(如果你是好人隊伍)，或一個僕從的能力(如果你是邪惡隊伍)。",
+    "edition": "bmr",
+    "firstNight": 9,
+    "firstNightReminder": "展示「你是」 卡片 + 一個鎮民或僕從的角色代幣，將學徒的角色代幣換成那個角色的角色代幣，然後以「是學徒」標記他。",
+    "flavor": "多年來我旅行各地，研究這工藝的作法。你問是什麼？簡單來說就是一些簡單的民間工藝，不需要擔心...還不需要。",
+    "id": "zh_TW2_apprentice",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/apprentice.webp",
+    "name": "學徒",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "是學徒"
+    ],
+    "setup": false,
+    "team": "traveller"
+  },
+  {
+    "ability": "每場遊戲一次，晚上時*，選擇一位玩家，該玩家死亡，無論是否有原因導致他們不能死。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "id": "zh_TW2_assassin",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/assassin_e.webp",
+    "name": "刺客",
+    "otherNight": 56,
+    "otherNightReminder": "刺客可以指向一位玩家，該玩家死亡。",
+    "reminders": [
+      "死亡",
+      "無能力"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "只有說書人可以提名，每天必須至少提名一位與你不同隊伍的玩家。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+    "id": "zh_TW2_bishop",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/bishop.webp",
+    "name": "主教",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "提名好人",
+      "提名邪惡"
+    ],
+    "setup": false,
+    "team": "traveller"
+  },
+  {
+    "ability": "每天晚上，選擇兩位活著的其他玩家，你得知其中有幾位因自己的能力而醒來(0/1/2)。",
+    "edition": "bmr",
+    "firstNight": 75,
+    "firstNightReminder": "侍女指向兩位玩家，展示他們之中因自己的能力而醒來的玩家數量。",
+    "flavor": "I aint seen nothin' untoward, Milady. Begging your pardon, but if I did see somethin', it certainly weren't the master o' the house sneaking into the professor's laboratory 'round eleven o'clock and mixing up fancy potions, just like you said, Miss.",
+    "id": "zh_TW2_chambermaid",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/chambermaid_g.webp",
+    "name": "侍女",
+    "otherNight": 95,
+    "otherNightReminder": "侍女指向兩位玩家，展示他們之中因自己的能力而醒來的玩家數量。",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每場遊戲一次，晚上時，選擇一位角色，該角色的玩家醉酒持續三天三夜。",
+    "edition": "bmr",
+    "firstNight": 34,
+    "firstNightReminder": "侍臣可以選擇角色表上的一個角色，如果朝臣使用了能力且該角色在遊戲中，以 「醉酒N」標記該角色的玩家。",
+    "flavor": "I am more afraid of an army of one hundred sheep led by a lion than an army of one hundred lions led by a sheep.",
+    "id": "zh_TW2_courtier",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/courtier_g.webp",
+    "name": "侍臣",
+    "otherNight": 18,
+    "otherNightReminder": "減少被標記玩家的醉酒天數。或者侍臣可以選擇角色表上的一個角色，如果他使用了能力且該角色在遊戲中，以 「醉酒N」標記該角色的玩家。",
+    "reminders": [
+      "無能力",
+      "醉酒 1",
+      "醉酒 2",
+      "醉酒 3"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上，選擇且活著的玩家(不同於昨晚)，如果該玩家明天被處決，他不會死。",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "魔鬼代言人指向一位活著的玩家，以「處決保護」標記該玩家。",
+    "flavor": "My client, should the objection be overruled, pleads innocent by virtue of the prosecution's non-observance of statute 27.B - incorrect or misleading conjugation of a verb. The fact that nine of the jury died last night is simply prima facie, which is, as Wills vs Thule set precedent for, further reason to acquit.",
+    "id": "zh_TW2_devilsadvocate",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/devilsadvocate_e.webp",
+    "name": "魔鬼代言人",
+    "otherNight": 26,
+    "otherNightReminder": "魔鬼代言人指向一位活著的玩家，以「處決保護」標記該玩家。",
+    "reminders": [
+      "處決保護"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上*，選擇一位玩家(不同於昨晚)，如果你選中了惡魔，則他得知你是誰並且今晚不會因自身能力被喚醒。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "We cast you out, every unclean spirit, every satanic power, every onslaught of the infernal adversary, every legion, every diabolical group and sect, in the name and by the power of Our Lord Jesus Christ. We command you, begone and fly far from the Church of God, from the souls made by God in His image and redeemed by the precious blood of the divine Lamb.",
+    "id": "zh_TW2_exorcist",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/exorcist_g.webp",
+    "name": "驅魔人",
+    "otherNight": 36,
+    "otherNightReminder": "驅魔人選擇一位不同於昨晚的玩家，如果該玩家是惡魔，喚醒惡魔並展示「這個能力選擇你」提示卡 + 驅魔人的角色代幣並指向驅魔人，惡魔今晚不會因自身能力被喚醒。",
+    "reminders": [
+      "已選擇"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你第一次死亡時不會死。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "……國王說“什麼？我從來沒有擁有過一條橡膠褲，更不用說一個蛋奶大砲了！”嗬嗬！真是個好日子！",
+    "id": "zh_TW2_fool",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/fool_g.webp",
+    "name": "弄臣",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "無能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上*，選擇一位玩家並猜測他的角色，如果你猜錯則你會死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "擲到公，算我嬴，擲到字，算你輸。",
+    "id": "zh_TW2_gambler",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/gambler_g.webp",
+    "name": "賭徒",
+    "otherNight": 21,
+    "otherNightReminder": "賭徒指向一位玩家 + 角色表上的一個角色，如果它們不符合，賭徒死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "在你的第一晚，你得知哪些城外人在遊戲中。如果今天白天有城外人死亡，在當晚選擇一位玩家，該玩家死亡。[−1 或 +1 城外人]",
+    "edition": "bmr",
+    "firstNight": 37,
+    "firstNightReminder": "展示「這些角色在遊戲中」提示卡 + 每個在遊戲中的城外人角色代幣。",
+    "flavor": "通常，這只是做生意。但你侮辱我女兒的話，就是在侮辱我，而你侮辱我，就是侮辱我的幫派。我勸你小心一點——你有甚麼三長兩短的話就可惜了。",
+    "id": "zh_TW2_godfather",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/godfather_e.webp",
+    "name": "教父",
+    "otherNight": 57,
+    "otherNightReminder": "如果今天有城外人死亡，教父指向一位玩家，該玩家死亡。",
+    "reminders": [
+      "城外人死亡",
+      "死亡"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上，第一個使用能力選擇你的玩家會醉到明天黃昏，你變成該玩家的隊伍。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Yes boss. I explained fings real good to dat geezer. He don't want me explain it again. Nah boss, I don't need no doctor - it's only a knife wound. Be right come mornin'",
+    "id": "zh_TW2_goon",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/goon_g.webp",
+    "name": "莽夫",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "每天白天，你可以發表一次公開聲明，當晚，如果該聲明正確，則會有一位玩家死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah.",
+    "id": "zh_TW2_gossip",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/gossip_g.webp",
+    "name": "造謠者",
+    "otherNight": 58,
+    "otherNightReminder": "如果造謠者的公開聲明正確，選擇一位今晚沒有被保護的玩家，該玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "在你的第一晚，你得知一位好人玩家以及他的角色，如果該玩家被惡魔殺死，則你也會死。",
+    "edition": "bmr",
+    "firstNight": 58,
+    "firstNightReminder": "以「孫子」標記一位好人玩家，展示該玩家的角色代幣並指向該玩家。",
+    "flavor": "如果你要出門，記得穿上外套，親愛的，還有你的保溫杯，還有圍巾。你知道我的心臟不好，如果你感冒...或更嚴重...我該怎麼辦？",
+    "id": "zh_TW2_grandmother",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/grandmother_g.webp",
+    "name": "祖母",
+    "otherNight": 73,
+    "otherNightReminder": "如果祖母的孫子被惡魔殺死，祖母死亡。",
+    "reminders": [
+      "孫子"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上*，選擇兩位玩家，他們今晚不會死，但其中一位醉到明天黃昏。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Come inside, fair traveller, and rest your weary bones. Drink and be merry, for the legions of the Dark One shall not harass thee tonight.",
+    "id": "zh_TW2_innkeeper",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/innkeeper_g.webp",
+    "name": "旅店老闆",
+    "otherNight": 19,
+    "otherNightReminder": "移除先前被保護或醉酒玩家的標記，旅店老闆指向兩位玩家，以「保護」標記他們，其中一位醉酒。",
+    "reminders": [
+      "保護",
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每場遊戲一次，如果另一位玩家提名，你可以強制使處決成功或失敗。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "I find the defendant guilty of the crimes of murder, fraud, arson, larceny, impersonating an officer of the law, practicing medicine without a license, slander, regicide, and littering.",
+    "id": "zh_TW2_judge",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/judge.webp",
+    "name": "法官",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "無能力"
+    ],
+    "setup": false,
+    "team": "traveller"
+  },
+  {
+    "ability": "你認為自己是惡魔，但你不是，惡魔知道你是誰以及你每天晚上選了誰。",
+    "edition": "bmr",
+    "firstNight": 21,
+    "firstNightReminder": "如果有7位或更多玩家，將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動，讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
+    "flavor": "我是黑夜…應該吧。",
+    "id": "zh_TW2_lunatic",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/lunatic_g.webp",
+    "name": "瘋子",
+    "otherNight": 35,
+    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家，喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
+    "reminders": [
+      "攻擊1",
+      "攻擊2",
+      "攻擊3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "如果惡魔被處決(結束遊戲)，則遊戲繼續進行一天，如果有玩家被處決，該玩家的隊伍落敗。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "The tentacles of that monster are nailed to the doors of the church. Mothers and children are dancing in the street. Excellent. Everything is proceeding exactly as I have planned.",
+    "id": "zh_TW2_mastermind",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/mastermind_e.webp",
+    "name": "主謀",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天白天，你可以選擇至多三對玩家互換座位，玩家們不能離開座位講悄悄話。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Miss Featherbottom, be quiet. Master Rutherford, a teacup needs just the four fingers, please. I know you are a father of nine, but age, or lack there-of as the case may be, is never an excuse for poor manners.",
+    "id": "zh_TW2_matron",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/matron.webp",
+    "name": "女舍監",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveller"
+  },
+  {
+    "ability": "每當一個僕從被處死，除了你以外且非旅行者的玩家都醉酒到明天黃昏。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "And I shall hear, tho' soft you tread above me... And all my dreams will warm and sweeter be... If you'll not fail to tell me that you love me... I simply sleep in peace until you come to me.",
+    "id": "zh_TW2_minstrel",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/minstrel_g.webp",
+    "name": "吟遊詩人",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "所有人醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "當你得知你死亡時，公開選擇一位活著的玩家，如果該玩家是好人，他今晚會死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Scorpio looks sideways at the lovers, and you have a choice to make. With silver cross my palm, and your fate shall be revealed. With steel cross my throat, and by the stars you shall regret it.",
+    "id": "zh_TW2_moonchild",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/moonchild_g.webp",
+    "name": "月之子",
+    "otherNight": 72,
+    "otherNightReminder": "如果月之子今天對一位好人玩家使用能力，則該玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "當有好人玩家被處決時，他可能不會死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Distrust all in whom the impulse to punish is powerful.",
+    "id": "zh_TW2_pacifist",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/pacifist_g.webp",
+    "name": "和平主義者",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上*，你可以選擇一位玩家，該玩家死亡。如果你上次選擇不行動，則你今晚選擇三位玩家。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "你想要一朵花嗎？我好孤獨呀。",
+    "id": "zh_TW2_po",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/po_e.webp",
+    "name": "珀",
+    "otherNight": 44,
+    "otherNightReminder": "珀可以選擇一位玩家，或是如果阿寶在上一次沒有選擇玩家，則選擇三位玩家。被選擇的玩家死亡。",
+    "reminders": [
+      "攻擊x3",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "每場遊戲一次，晚上時*，選擇一位死亡的玩家，如果該玩家是鎮民，則他復活。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "The process is simple. Attach the hydraulic confabulator to the modified chi matrix amplifier, add 20 CCs of pseudodorafine, keep his Z levels above 20%, and your husband will be fine. Now, all we need is a lightning strike.",
+    "id": "zh_TW2_professor",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/professor_g.webp",
+    "name": "教授",
+    "otherNight": 65,
+    "otherNightReminder": "教授可以指向一位玩家，如果該玩家是鎮民，該玩家復活。",
+    "reminders": [
+      "復活",
+      "無能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上，選擇一位玩家，該玩家中毒。先前因你而中毒的玩家死亡，並且變得健康。",
+    "edition": "bmr",
+    "firstNight": 46,
+    "firstNightReminder": "普卡指向一位玩家，該玩家中毒。",
+    "flavor": "You truly have been kind welcoming me into your beautiful home. I am so sorry I accidentally scratched you. A little thing. No matter. But please, take this golden toothpick as a humble token of my regret.",
+    "id": "zh_TW2_pukka",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/pukka_e.webp",
+    "name": "普卡",
+    "otherNight": 42,
+    "otherNightReminder": "普卡指向一位玩家，該玩家中毒，先前中毒的玩家死亡並不再中毒。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上，選擇一位活著的玩家，你或該玩家醉酒到明天黃昏，你不會死亡。",
+    "edition": "bmr",
+    "firstNight": 25,
+    "firstNightReminder": "水手指向一位活著的玩家，水手或該玩家醉酒。",
+    "flavor": "I'll drink any one of yer under the table! You! The chatterbox! Reckon you can take me? No? Howza 'bout you, Grandma? You ever tried Old McKillys Extra Spiced Rum before? Guaranteed to put hairs on yer chest! Step aboard, aye!",
+    "id": "zh_TW2_sailor",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/sailor_g.webp",
+    "name": "水手",
+    "otherNight": 13,
+    "otherNightReminder": "先前醉酒的玩家不再醉酒，水手指向一位活著的玩家，水手或該玩家醉酒。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上*，選擇兩位玩家，這些玩家死亡。昨晚你選擇的其中一位玩家可能會復活。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
+    "id": "zh_TW2_shabaloth",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/shabaloth_e.webp",
+    "name": "沙巴洛斯",
+    "otherNight": 43,
+    "otherNightReminder": "沙巴洛斯前一晚選擇的其中一位玩家可能會復活，沙巴洛斯選擇兩位玩家，這些玩家死亡。",
+    "reminders": [
+      "復活",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "如果你活著的鄰居都是好人，則他們都不會死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "If you are cold, tea will warm you. If you are too heated, tea will cool you. If you are depressed, tea will cheer you. If you are excited, tea will calm you.",
+    "id": "zh_TW2_tealady",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/tealady_g.webp",
+    "name": "茶藝師",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "不會死"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你隨時可能死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "I think I see the problem. Luckily, I have an idea! This catapult will shoot twice as far with just a minor adjustment...",
+    "id": "zh_TW2_tinker",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/tinker_g.webp",
+    "name": "修補匠",
+    "otherNight": 71,
+    "otherNightReminder": "修補匠可能會死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "只有你和死亡玩家可以投票，死亡玩家投票不需使用投票代幣，也不需要50%的票數門檻。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "Bien venu. Sit down. Breathe deep. Enter the land of the dead. See with their eyes. Speak with their voice. Yon sel lang se janm ase.",
+    "id": "zh_TW2_voudon",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/voudon.webp",
+    "name": "巫毒師",
+    "otherNight": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveller"
+  },
+  {
+    "ability": "每天晚上*，如果今天沒有死亡，選擇一位玩家，該玩家死亡。你第一次死亡時不會死，但會被視為已死亡。",
+    "edition": "bmr",
+    "firstNight": "",
+    "firstNightReminder": "",
+    "flavor": "I do not. Understand. Your ways. Fellow human. Show me. The dirt. Where the holy. Lay. Sleeping. I too. Must sleep. Soon.",
+    "id": "zh_TW2_zombuul",
+    "image": "https://script.bloodontheclocktower.com/src/assets/icons/bmr/zombuul_e.webp",
+    "name": "殭怖",
+    "otherNight": 41,
+    "otherNightReminder": "如果今天沒有人死亡，殭怖指向一位玩家，該玩家死亡。",
+    "reminders": [
+      "今天死亡",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
